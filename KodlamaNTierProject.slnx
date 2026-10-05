@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="KodlamaNTierProject.Business/KodlamaNTierProject.Business.csproj" />
+  <Project Path="KodlamaNTierProject.DataAccess/KodlamaNTierProject.DataAccess.csproj" />
+  <Project Path="KodlamaNTierProject.Entities/KodlamaNTierProject.Entities.csproj" />
+  <Project Path="KodlamaNTierProject.UI/KodlamaNTierProject.UI.csproj" />
+</Solution>
