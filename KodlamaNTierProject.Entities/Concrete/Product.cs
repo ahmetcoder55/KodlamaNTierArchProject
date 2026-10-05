@@ -1,8 +1,9 @@
 using System.ComponentModel.DataAnnotations;
+using KodlamaNTierProject.Entities.Abstract;
 
 namespace KodlamaNTierProject.Entities.Concrete
 {
-    public class Product
+    public class Product:IEntity
     {
         [Key]
         public int Id { get; set; }
