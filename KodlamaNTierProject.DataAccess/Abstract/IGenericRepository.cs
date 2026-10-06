@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 using KodlamaNTierProject.Entities.Abstract;
 
-namespace KodlamaNTierProject.DataAccess
+namespace KodlamaNTierProject.DataAccess.Abstract
 {
     public interface IGenericRepository<T> where T:class,IEntity
     {

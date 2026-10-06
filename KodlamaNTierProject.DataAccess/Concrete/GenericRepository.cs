@@ -1,4 +1,5 @@
 using System.Linq.Expressions;
+using KodlamaNTierProject.DataAccess.Abstract;
 using KodlamaNTierProject.Entities.Abstract;
 using Microsoft.EntityFrameworkCore;
 
