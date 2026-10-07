@@ -15,6 +15,6 @@ namespace KodlamaNTierProject.Entities.Concrete
         public int CategoryId { get; set; }
 
         // Navigation Property (Her ürünün bir kategorisi vardır)
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
     }
 }
