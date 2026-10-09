@@ -1,6 +1,8 @@
 using KodlamaNTierProject.Business.Abstract.Repositories;
+using KodlamaNTierProject.Business.Abstract.UnitOfWorks;
 using KodlamaNTierProject.Business.Concrete.Mappings;
 using KodlamaNTierProject.Business.Concrete.Services;
+using KodlamaNTierProject.Business.Concrete.UnitOfWorks;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace KodlamaNTierProject.Business.Concrete.Extensions
@@ -12,6 +14,7 @@ namespace KodlamaNTierProject.Business.Concrete.Extensions
             services.AddAutoMapper(x=>x.AddMaps(typeof(GeneralMapping)));
 
             services.AddScoped<IProductService,ProductManager>();
+            services.AddScoped<IServiceManager,ServiceManager>();
         }
     }
 }
